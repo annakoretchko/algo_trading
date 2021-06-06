@@ -1,0 +1,95 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-Italic;\f2\fnil\fcharset0 .AppleSystemUIFontMonospaced-Regular;
+\f3\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red52\green57\blue87;\red20\green20\blue28;
+\red153\green160\blue204;\red27\green29\blue31;\red222\green224\blue226;\red234\green121\blue57;\red34\green34\blue34;
+\red193\green193\blue193;\red191\green131\blue194;\red88\green196\blue193;}
+{\*\expandedcolortbl;;\csgray\c0;\cssrgb\c26667\c29412\c41569;\cssrgb\c10196\c10588\c14902;
+\cssrgb\c66275\c69412\c83922;\cssrgb\c14118\c15294\c16078;\cssrgb\c89412\c90196\c90980;\cssrgb\c94118\c55294\c28627;\cssrgb\c17647\c17647\c17647;
+\cssrgb\c80000\c80000\c80000;\cssrgb\c80000\c60000\c80392;\cssrgb\c40392\c80392\c80000;}
+\margl1440\margr1440\vieww22200\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs34 \cf2 \CocoaLigature0 Add this to the top of python file:\
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f1\i\fs24 \cf3 \cb4 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec3 #!/Users/anna/anaconda3/envs/cron/bin/python3
+\f0\i0 \cf5 \cb1 \strokec5 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\fs34 \cf2 \kerning1\expnd0\expndtw0 \CocoaLigature0 \outl0\strokewidth0 \
+\
+Add this for the crontab -e\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\fs38 PATH=/Users/anna/anaconda3/envs/cron/bin\
+* * * * * python ~/test_cron/myemail.py\
+* * * * * python ~/Dev/automate_finance/myemail.py\
+\
+* * * * * python ~/Dev/automate_finance/main.py
+\fs34 \
+\
+\
+
+\fs38 37 16 * * * python ~/Dev
+\fs34 /automate_finance/
+\fs38 automate_finance/
+\fs34 main.py -daily_mover "True"\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+* * * * * python ~/test_cron/myemail.py\
+* * * * * python ~/Dev/automate_finance/myemail.py\
+\
+* * * * * . /home/matt/anaconda3/envs/development/etc/conda/activate.d/env_vars.sh ; /home/matt/anaconda3/envs/development/bin/python /home/matta/python_workspace/dbUpdater.py\
+\
+\
+* * * * * . /Users/anna/anaconda3/envs/cron/etc/conda/activate.d/env_vars.sh ; /Users/anna/anaconda3/envs/cron/bin/python3 /Users/anna/Dev/automate_finance/myemail.py\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\fs44 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf6 \cb7 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec6 PATH=
+\f1\i \cf3 \cb4 \strokec3 /Users/anna/anaconda3/envs/cron/bin\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\i0 \cf2 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 \outl0\strokewidth0 * * * * * python ~/test_cron/myemail.py
+\fs34 \
+\
+* * * * * /usr/bin/python3 /Users/anna/test_cron/myemail.py\
+\
+\
+\pard\pardeftab720\sl480\partightenfactor0
+
+\f3\fs32 \cf8 \cb9 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec8 *\cf10 \strokec10  \cf8 \strokec8 *\cf10 \strokec10  * * * \cf11 \strokec11 cd\cf10 \strokec10  
+\f0\fs22 \cf2 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 \outl0\strokewidth0 ~/test_cron/
+\f3\fs32 \cf10 \cb9 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec10  \cf12 \strokec12 &&\cf10 \strokec10  ./myemail.py\
+\
+\
+}
