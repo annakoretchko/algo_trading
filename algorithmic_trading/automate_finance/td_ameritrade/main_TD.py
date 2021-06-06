@@ -19,11 +19,7 @@ def run(flag):
         return COMPX_df
 
 
-    # df_account = pd.DataFrame((TDSession.get_accounts(
-    #                 account='492476213',
-    #                 fields=['orders','positions']
-    #             )))
-
+   
 
     # TDSession.get_streamer_subscription_keys(accounts=['492476213'])
 
